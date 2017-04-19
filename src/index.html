@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Construction companies portal</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Users</a></li>
+                <li><a href="#">Objects</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="page-header">
+        <h1><i class="glyphicon glyphicon-arrow-left"></i>
+            Edit "some users"</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <legend>
+                User info
+            </legend>
+            <div class="form-group row">
+                <span class="col-xs-5">Owner photo</span>
+                <div class="col-xs-7">
+                    <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                    <a href="#" class="under-photo">Change</a>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label for="exampleInputEmail1">Owner full name</label>
+                </div>
+                <div class="col-xs-7">
+                    <input type="text" id="exampleInputEmail1" class="form-control" placeholder="Enter owner full name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label for="exampleInputEmail">Owner address</label>
+                </div>
+                <div class="col-xs-7">
+                    <textarea id="exampleInputEmail" class="form-control" placeholder="Enter owner address"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label for="exampleInput">Owner phone number</label>
+                </div>
+                <div class="col-xs-7">
+                    <input type="text" id="exampleInput" class="form-control" placeholder="Enter phone number">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label for="exampleEmail">Enter e-mail address</label>
+                </div>
+                <div class="col-xs-7">
+                    <input type="text" id="exampleEmail" class="form-control" placeholder="Enter e-mail address">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <legend>
+                Company info
+            </legend>
+            <div class="form-group row">
+                <span class="col-xs-5">
+                    Company photo
+                </span>
+                <div class="col-xs-7">
+                    <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                    <a href="#" class="under-photo">Change</a>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label for="examplename">Company name</label>
+                </div>
+                <div class="col-xs-7">
+                    <input type="text" id="examplename" class="form-control" placeholder="Enter company name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label>Rating</label>
+                </div>
+                <div class="col-xs-7">
+                    <ul class="stars">
+                        <li class="glyphicon glyphicon-star"></li>
+                        <li class="glyphicon glyphicon-star"></li>
+                        <li class="glyphicon glyphicon-star"></li>
+                        <li class="glyphicon glyphicon-star"></li>
+                        <li class="glyphicon glyphicon-star"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-5">
+                    <label>Show in top</label>
+                </div>
+                <div class="col-xs-7">
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+    </div>
+    <legend>
+        <h3 class="description">Company description</h3>
+    </legend>
+    <textarea class="form-control form-group" cols="30" rows="10"></textarea>
+    <div class="btn-group pull-right clearfix form-group">
+        <button class="btn btn-success">
+            <i class="glyphicon glyphicon-floppy-disk"></i>
+            Save
+        </button>
+        <button class="btn btn-danger">
+            <i class="glyphicon glyphicon-minus-sign"></i>
+            Cancel
+        </button>
+    </div>
+</div>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Company contacts
+        </div>
+        <div class="panel-body"></div>
+        <table class="table table-striped">
+            <tr>
+                <th>Title</th>
+                <th>Value</th>
+                <th>Type</th>
+                <th>Option</th>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td>097 12 34 567</td>
+                <td>Phone</td>
+                <td>
+                    <div class="btn-group btn-group-xs">
+                        <button class="btn btn-success">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Edit
+                        </button>
+                        <button class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i>
+                            Remove
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td>123 45 67 890</td>
+                <td>Fax</td>
+                <td>
+                    <div class="btn-group btn-group-xs">
+                        <button class="btn btn-success">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Edit
+                        </button>
+                        <button class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i>
+                            Remove
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <input type="text" value="Fax" class="form-control">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <input type="text" class="form-control" value="123 45 67 890">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            ---All---
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">Ipsum</a></li>
+                            <li><a href="#">Dolor</a></li>
+                            <li><a href="#">Sit</a></li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="btn-group btn-group-xs">
+                        <button class="btn btn-primary">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Save
+                        </button>
+                        <button class="btn btn-warning">
+                            <i class="glyphicon glyphicon-trash"></i>
+                            Cancel
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</div>
+
+<footer>
+
+</footer>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

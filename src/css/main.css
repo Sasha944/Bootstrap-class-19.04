@@ -1,0 +1,32 @@
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+.glyphicon-arrow-left{
+    color:blue;
+    font-size: 20px;
+}
+
+.under-photo{
+    display: block;
+}
+
+.stars{
+    padding: 0;
+}
+
+.description{
+    margin-bottom: 6px;
+}
+
+.button{
+    padding: 0;
+}
+.btn-group-xs{
+    font-size: 0;
+}
+
+footer{
+    height: 100px;
+}
